@@ -1,17 +1,103 @@
-#Servicio Web de Contactos — Node.js + Express
 
-**Autor:** Josue Samuel Campusano
+# Servicio Web
 
-Este proyecto implementa un **Servicio Web** utilizando **Node.js** y **Express**, como parte de la **Tarea 5**.  
-El servicio permite **listar** y **almacenar** contactos consumiendo el API externo:
-**POST:**
+Este proyecto consiste en la creación de un Servicio Web utilizando **Node.js** y la librería **Express**, que permite **listar y almacenar contactos** consumiendo el servicio externo:  
+http://www.raydelto.org/agenda.php
 
-<img width="1322" height="681" alt="Captura de pantalla 2025-11-17 154436" src="https://github.com/user-attachments/assets/dc1a470c-d4b5-47c2-a58f-660ac97338d9" />
+El servicio implementa dos operaciones principales (**GET** y **POST**) para interactuar con la API de contactos utilizando herramientas como Postman o el navegador.
+
+---
+
+## Vista del Proyecto
+
+### GET
+
+<img width="1365" height="688" alt="Captura de pantalla 2025-11-17 154158" src="https://github.com/user-attachments/assets/faf1771a-db8e-4541-a746-1531aa05105f" />
+
+### POST
+
+<img width="1322" height="681" alt="Captura de pantalla 2025-11-17 154436" src="https://github.com/user-attachments/assets/c64a415e-f6c3-40ee-8ff6-8b875805bdfc" />
 
 
-**GET:**
+### Validaciones
 
-<img width="1365" height="688" alt="Captura de pantalla 2025-11-17 154158" src="https://github.com/user-attachments/assets/d2d1b3ce-1e9f-45f5-a6f6-8f6e838fbf19" />
+<img width="1315" height="675" alt="Captura de pantalla 2025-11-17 154504" src="https://github.com/user-attachments/assets/6f332542-d4e6-4cbe-99e6-19f8d3533366" />
 
-**Contactos:**
-<img width="1315" height="675" alt="Captura de pantalla 2025-11-17 154504" src="https://github.com/user-attachments/assets/bac003d4-cd09-4418-8bb5-8d45742276ea" />
+### Contactos 
+
+<img width="1309" height="644" alt="Captura de pantalla 2025-11-17 154528" src="https://github.com/user-attachments/assets/b8e93df2-762c-4f24-bfb0-1b443f732f14" />
+
+---
+
+## Instalación
+
+1. Clona este repositorio o copia los archivos en tu máquina local.  
+2. Abre una terminal en la carpeta del proyecto.  
+3. Instala las dependencias necesarias ejecutando:
+
+```bash
+npm install
+````
+
+4. Inicia el servidor con:
+
+```bash
+node app.js
+```
+
+El servidor se ejecutará por defecto en:
+
+```
+http://localhost:3000
+```
+
+---
+
+## Endpoints del Servicio
+
+### GET /contactos
+
+Obtiene la lista de contactos almacenados en el servicio de Raydelto.
+
+### POST /contactos
+
+Permite almacenar un nuevo contacto enviándolo al servicio remoto.
+Campos requeridos:
+
+* nombre
+* apellido
+* telefono
+
+---
+
+## Descripción
+
+* **Framework:** Express.js
+* **Cliente HTTP:** Axios
+* **Puerto:** 3000
+* **API Externa:** [http://www.raydelto.org/agenda.php](http://www.raydelto.org/agenda.php)
+
+---
+
+## Requisitos Previos
+
+* Tener instalado **Node.js versión 18 o superior**.
+* Tener acceso a Internet para consumir la API externa.
+* Tener instalado Postman (opcional) para probar las peticiones.
+
+---
+
+## Conclusión
+
+Este proyecto demuestra el uso de **Express** y **Axios** para consumir y exponer servicios web, implementando las operaciones fundamentales **GET** y **POST** sobre una API externa.
+
+---
+
+## Autor
+
+**Josue Samuel Campusano**
+**Matricula: 2024-1556**
+
+```
+
+
