@@ -1,10 +1,9 @@
 
-# Servicio Web
+# TAREA 5 SERVICIO WEB
 
 Este proyecto consiste en la creación de un Servicio Web utilizando **Node.js** y la librería **Express**, que permite **listar y almacenar contactos** consumiendo el servicio externo:  
 http://www.raydelto.org/agenda.php
 
-El servicio implementa dos operaciones principales (**GET** y **POST**) para interactuar con la API de contactos utilizando herramientas como Postman o el navegador.
 
 ---
 
@@ -79,25 +78,11 @@ Campos requeridos:
 
 ---
 
-## Requisitos Previos
-
-* Tener instalado **Node.js versión 18 o superior**.
-* Tener acceso a Internet para consumir la API externa.
-* Tener instalado Postman (opcional) para probar las peticiones.
-
----
-
-## Conclusión
-
-Este proyecto demuestra el uso de **Express** y **Axios** para consumir y exponer servicios web, implementando las operaciones fundamentales **GET** y **POST** sobre una API externa.
-
----
-
 ## Autor
 
 **Josue Samuel Campusano**
 **Matricula: 2024-1556**
 
-```
+
 
 
