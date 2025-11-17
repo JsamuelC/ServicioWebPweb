@@ -1,0 +1,23 @@
+{
+  "name": "servicio-web-contactos",
+  "version": "1.0.0",
+  "description": "Servicio Web para listar y almacenar contactos usando Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "contactos",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5"
+  }
+}
+
